@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="<%= 'active'  if current_page?('/') || current_page?('/about_me') %>"><a href="/about_me">About Me <span class="sr-only">(current)</span></a></li>
+        <li class="<%= 'active' if current_page?('/education') %>"><a href="/education">Education</a></li>
+        <li class="<%= 'active' if current_page?('/work') %>"><a href="/work">Work</a></li>
+        <li class="<%= 'active' if current_page?('/blog') %>"><a href="/blog">Blog</a></li>
+        <li class="<%= 'active' if current_page?('/contact_me') %>"><a href="/contact_me">Contact Me</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+

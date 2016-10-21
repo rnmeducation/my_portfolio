@@ -1,0 +1,187 @@
+
+/*
+ *= require font-awesome
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+/*@import "font-awesome-sprockets";*/
+@import "font-awesome";
+
+body{
+  font-family: 'Eagle Lake', cursive;
+}
+
+
+
+
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.personal{
+  text-align: center;
+  h3 span{
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+    
+    &:hover {
+      margin-top: -1px;
+    }
+    
+    &#twitter:hover {
+      color: #77DDF6;
+    }
+
+    &#github:hover {
+      color: black;
+    }
+
+    &#linkedin:hover {
+      color: #0177B5;
+    }
+
+    &#facebook:hover {
+      color: #3b5998;
+    }
+
+    &#stack:hover {
+      color: #ED780E;
+    }
+
+    &#plus:hover {
+      color: #D43402;
+    }
+
+    &#mail:hover {
+      color: #F7B401;
+    }
+  }
+}
+
+hr {
+  margin-top: 58px;
+}
+
+
+.wb-content {
+  margin-top: 0px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/*$bgDefault      : #ffffff;
+$bgHighlight    : #ffffff;
+$colDefault     : #000000;
+$colHover       : green; */
+
+$bgDefault: transparent;
+$bgHighlight: transparent;
+$colDefault     : #000000;
+$colHover       : green;
+
+/* --- Style --- */
+.navbar-default {
+    background-color: $bgDefault;
+    border-color: $bgHighlight;
+    .navbar-brand {
+        color: $colDefault;
+        &:hover, &:focus {
+            color: $colHover; }}
+    .navbar-nav {
+        > li {
+            > a {
+                color: $colDefault;
+                &:hover, &:focus {
+                    color: $colHover;   }}}
+        .active {
+            > a, > a:hover, > a:focus {
+                color: $colHover;
+                background-color: $bgHighlight; }}
+        .open {
+            > a, > a:hover, > a:focus {
+                color: $colHover;
+                background-color: $bgHighlight;
+                .caret {
+                    border-top-color: $colHover;
+                    border-bottom-color: $colHover; }}}
+        > .dropdown {
+            > a {
+                .caret {
+                    border-top-color: $colDefault;
+                    border-bottom-color: $colDefault; }
+                &:hover, &:focus {
+                    .caret {
+                        border-top-color: $colHover;
+                        border-bottom-color: $colHover; }}}}}
+    .navbar-toggle {
+        border-color: $bgHighlight;
+        &:hover, &:focus {
+            background-color: $bgHighlight; }
+        .icon-bar {
+            background-color: $colDefault; }}}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: $colDefault;
+        &:hover, &:focus {
+            color: $colHover;
+            background-color: $bgHighlight; }}
+}
+
+.navbar .navbar-nav {
+    font-size: 18px;
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+body {
+  background-color: #D7D7D7;
+}
+
+
+footer, body .container:after footer {
+  height: 120px; 
+}
+
+h3  {
+  color: green;
+}
