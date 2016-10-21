@@ -1,9 +1,16 @@
-This is my Personal Website. You can give me a visit at www.ranganayakulu.com (comming soon)
+#Welcome
 
-Build with:
-      * Ruby
-      * Ruby on Rails Web Framework
-      * JS/jQuery
-      * CSS/SCSS
-      * Heroku (Soon)
+
+
+
+This is my Personal Website. You can give me a visit at [www.ranganayakulu.com](www.ranganayakulu.com) Comming Soon.
+
+<dl> 
+     <dt>Build with:</dt>
+      <dd>Ruby</dd>
+      <dd>Ruby on Rails Web Framework</dd>
+      <dd>JS/jQuery</dd>
+      <dd>CSS/SCSS</dd>
+      <dd>Heroku (Soon)</dd>
+</dl>
       
