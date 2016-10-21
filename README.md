@@ -1,24 +1,16 @@
-# README
+#Welcome
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+This is my Personal Website. You can give me a visit at www.ranganayakulu.com (comming soon).
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<dl> 
+     <dt>Build with:</dt>
+      <dd>Ruby</dd>
+      <dd>Ruby on Rails Web Framework</dd>
+      <dd>JS/jQuery</dd>
+      <dd>CSS/SCSS</dd>
+      <dd>Heroku (Soon)</dd>
+</dl>
+      
